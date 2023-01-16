@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioLite-Your Music is special</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="Brand"><img src="Logo.png" alt="audioLite">AudioLite</li>
+            <li>Home</li>
+            <li>about</li>
+            <li>Developed By Hardik Jatolia(IIT Jodhpur)</li>
+
+        </ul>
+    </nav>
+    <div class="Container">
+        <div class="Songlist">
+            <h1>Best Romantic Songs</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Mehrama</span>
+                    <span class="songlistplay"><span class="timestamp">4:00 <i  id='0'class="far songItemPlay fa fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover2.jpg" alt="1">
+                    <span class="songName">Shayad</span>
+                    <span class="songlistplay"><span class="timestamp">4:00 <i id='1'class="far songItemPlay fa fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover3.jpg" alt="1">
+                    <span class="songName">Apna Bana le</span>
+                    <span class="songlistplay"><span class="timestamp">4:00 <i id='2'class="far songItemPlay fa fa-regular fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="Banner"></div>
+    </div>
+    <div class="Bottom">
+        <input type="range" name="" id="progress" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="far fa-2x fa-solid fa-backward" id="previous"></i>
+            <i class="fa-2x fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="far fa-2x fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <span id="masterSongName"></span>
+           
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d0b4a9dc5d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
